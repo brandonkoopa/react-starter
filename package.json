@@ -1,0 +1,59 @@
+{
+  "name": "react-starter",
+  "version": "0.1.0",
+  "description": "Bare-bone esssentials to get started in new a React web app",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "webpack serve --mode development && node server.js",
+    "build": "webpack --mode production"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.35",
+    "@fortawesome/free-solid-svg-icons": "^5.15.3",
+    "@fortawesome/react-fontawesome": "^0.1.14",
+    "antd": "^4.16.10",
+    "babel-jest": "^27.0.6",
+    "express": "^4.17.1",
+    "fund": "^1.0.0",
+    "jest": "^27.0.6",
+    "node-sass": "^6.0.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-intl": "^5.20.4",
+    "react-redux": "^7.2.4",
+    "react-test-renderer": "^17.0.2",
+    "redux": "^4.1.0",
+    "styled-components": "^5.3.0",
+    "theme-ui": "^0.10.0"
+  },
+  "engines": {
+    "node": "4.4.5"
+  },
+  "keywords": [
+    "node",
+    "express",
+    "sass"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/cli": "^7.14.5",
+    "@babel/core": "^7.14.6",
+    "@babel/preset-env": "^7.15.0",
+    "@babel/preset-react": "^7.14.5",
+    "babel-loader": "^8.2.2",
+    "babel-plugin-react-intl": "^8.2.25",
+    "css-loader": "^5.2.6",
+    "eslint": "^7.31.0",
+    "eslint-plugin-react": "^7.24.0",
+    "file-loader": "^6.2.0",
+    "html-webpack-plugin": "^5.3.2",
+    "less-loader": "^10.0.1",
+    "prettier": "2.3.2",
+    "sass-loader": "^12.1.0",
+    "style-loader": "^2.0.0",
+    "webpack": "^5.40.0",
+    "webpack-cli": "^4.7.2",
+    "webpack-dev-server": "^3.11.2"
+  }
+}
